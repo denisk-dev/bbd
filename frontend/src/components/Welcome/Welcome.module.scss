@@ -1,0 +1,54 @@
+.welcomeWrapper {
+  height: 100vh;
+  background-color: rgb(9, 7, 10);
+  font-family: topsecret;
+}
+
+@font-face {
+  font-family: topsecret;
+  src: url("../../assets/top_secret_kb/TopSecret.ttf");
+}
+
+.welcomeBody {
+  border-top: 2px solid rgb(221, 39, 48);
+  height: 91%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(19, 17, 20);
+  p {
+    color: white;
+    font-family: topsecret;
+    font-size: 60px;
+  }
+
+  button {
+    margin: 50px;
+  }
+
+  .startNewProgram {
+    text-decoration: none;
+    color: rgb(221, 39, 48);
+    border: 2px solid rgb(221, 39, 48);
+    padding: 15px 40px;
+    background-color: rgb(221, 39, 48);
+    border-radius: 15px;
+    color: whitesmoke;
+    font-family: topsecret;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .continueProgram {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(8, 128, 206);
+    border: 2px solid rgb(8, 128, 206);
+    padding: 15px 40px;
+    background-color: rgb(8, 128, 206);
+    border-radius: 15px;
+    color: whitesmoke;
+    font-family: topsecret;
+  }
+}

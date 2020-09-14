@@ -1,0 +1,61 @@
+.formWrapper {
+  background-color: #131114;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  color: white;
+  border: 2px solid rgb(221, 39, 48);
+  width: 500px;
+  height: 450px;
+  background-color: #09070a;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-family: topsecret;
+    height: 15%;
+    margin-top: 10px;
+  }
+
+  .credInput {
+    outline: 0;
+    width: 70%;
+    background: none;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    color: whitesmoke;
+  }
+
+  .logInButton {
+    background: rgb(221, 39, 48);
+    border-radius: 25px;
+    border: 2px solid rgb(221, 39, 48);
+    color: whitesmoke;
+    padding: 10px 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  p {
+    margin-top: 20px;
+  }
+
+  form {
+    // display: flex;
+    // justify-content: space-between;
+    // flex-direction: column;
+    // align-items: center;
+    // height: 85%;
+  }
+}
